@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,sans-serif;background:#0f0f0f;color:#e5e5e5}.container{width:90%;max-width:1200px;margin:auto;padding:40px 0}h1,h2{color:#ffd60a}h2{margin:40px 0 20px;border-left:4px solid #ffd60a;padding-left:10px}@media (max-width: 768px){.container{width:95%}}
