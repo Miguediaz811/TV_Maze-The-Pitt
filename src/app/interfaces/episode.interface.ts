@@ -11,4 +11,8 @@ export interface Episode {
     original: string;
   };
 
+  rating?: {
+    average: number | null;
+  };
+
 }

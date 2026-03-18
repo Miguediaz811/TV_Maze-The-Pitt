@@ -14,7 +14,7 @@
 
     <p><strong>Estado:</strong> {{ show.status }}</p>
 
-    <p><strong>Plataforma:</strong> {{ show.network?.name }}</p>
+    <p><strong>Rating:</strong> {{ show.rating?.average || 'No disponible' }}</p>
 
     <div><strong>Resumen:</strong> <div class="summary" [innerHTML]="show.summary"></div></div>
 

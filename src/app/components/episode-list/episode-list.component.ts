@@ -41,4 +41,8 @@ export class EpisodeListComponent implements OnChanges {
 
   }
 
+  onImageError(event: any) {
+  event.target.src = 'assets/no-image.png';
+  }
+
 }
