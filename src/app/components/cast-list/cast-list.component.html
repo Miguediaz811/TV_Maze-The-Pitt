@@ -1,0 +1,23 @@
+<h2>Reparto</h2>
+
+<div class="cast-grid">
+
+  <div class="cast-card" *ngFor="let actor of cast">
+
+    <img
+      *ngIf="actor.person.image"
+      [src]="actor.person.image.medium"
+      alt="{{ actor.person.name }}"
+    >
+
+    <div class="cast-info">
+
+      <h4>{{ actor.person.name }}</h4>
+
+      <p>{{ actor.character.name }}</p>
+
+    </div>
+
+  </div>
+
+</div>

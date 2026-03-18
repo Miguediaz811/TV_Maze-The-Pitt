@@ -1,0 +1,23 @@
+<div class="show-container">
+
+    <div class="show-image-container">
+
+        <img [src]="show.image?.medium" alt="{{ show.name }}">
+
+    </div>
+
+  <div class="show-info">
+
+    <h1>{{ show.name }}</h1>
+
+    <p><strong>Idioma:</strong> {{ show.language }}</p>
+
+    <p><strong>Estado:</strong> {{ show.status }}</p>
+
+    <p><strong>Plataforma:</strong> {{ show.network?.name }}</p>
+
+    <div><strong>Resumen:</strong> <div class="summary" [innerHTML]="show.summary"></div></div>
+
+  </div>
+
+</div>

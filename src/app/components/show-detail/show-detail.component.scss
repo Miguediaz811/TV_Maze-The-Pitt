@@ -1,0 +1,75 @@
+.show-container {
+
+  display: flex;
+
+  gap: 30px;
+
+  align-items: flex-start;
+
+  background: #1a1a1a;
+
+  padding: 25px;
+
+  border-radius: 10px;
+
+}
+
+.show-image-container img {
+
+  width: 220px;
+
+  border-radius: 10px;
+
+  border: 3px solid #ffd60a;
+
+}
+
+.show-info {
+
+  flex: 1;
+
+}
+
+.show-info h1 {
+
+  color: #ffd60a;
+
+  margin-bottom: 10px;
+
+}
+
+.show-info p {
+
+  margin: 6px 0;
+
+  color: #ccc;
+
+}
+
+.summary {
+
+  margin-top: 15px;
+
+  line-height: 1.6;
+
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .show-container {
+
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+
+  .show-image-container img {
+
+    margin: auto;
+
+  }
+
+}

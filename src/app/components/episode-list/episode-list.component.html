@@ -1,0 +1,55 @@
+<h2 class="season-title">Temporadas</h2>
+
+<div class="season-container">
+
+  <div
+    class="season-card"
+    *ngFor="let season of seasons | keyvalue"
+    (click)="toggleSeason(+season.key)"
+  >
+
+    <h3>Temporada {{ season.key }}</h3>
+
+    <p>{{ season.value.length }} episodios</p>
+
+  </div>
+
+</div>
+
+
+<!-- Episodios -->
+
+<div *ngIf="openedSeason" class="episodes-container">
+
+  <h2>Temporada {{ openedSeason }}</h2>
+
+  <div class="episodes-grid">
+
+    <div class="episode-card"
+         *ngFor="let ep of seasons[openedSeason]">
+
+      <img
+        [src]="ep.image?.medium"
+        alt="{{ep.name}}"
+      >
+
+      <div class="episode-info">
+
+        <h4>Episodio {{ep.number}}</h4>
+
+        <p>{{ep.name}}</p>
+
+      </div>
+          <!-- DESCRIPCIÓN -->
+    <div
+      class="episode-summary"
+      [innerHTML]="ep.summary">
+    </div>
+    <p *ngIf="!ep.summary">
+      Sin descripción disponible
+    </p>
+    </div>
+
+  </div>
+
+</div>
