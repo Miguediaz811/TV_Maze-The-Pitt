@@ -1,9 +1,12 @@
+<button 
+  *ngIf="showInstallButton" 
+  class="install-btn" 
+  (click)="installApp()">
+  ⬇ Instalar App
+</button>
+
 <div class="container">
-
   <app-show-detail [show]="show"></app-show-detail>
-
   <app-episode-list [episodes]="episodes"></app-episode-list>
-
   <app-cast-list [cast]="cast"></app-cast-list>
-
 </div>
