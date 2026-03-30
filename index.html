@@ -11,6 +11,18 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <link rel="apple-touch-icon" href="assets/icons/icon-152x152.png">
+  <script>
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
 <style>*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,sans-serif;background:#0f0f0f;color:#e5e5e5}
 </style><link rel="stylesheet" href="styles-3CWPEHOW.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-3CWPEHOW.css"></noscript></head>
 <body>
