@@ -4,8 +4,8 @@
   "theme_color": "#1a1a2e",
   "background_color": "#1a1a2e",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/TV_Maze-The-Pitt/",
+  "start_url": "/TV_Maze-The-Pitt/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",

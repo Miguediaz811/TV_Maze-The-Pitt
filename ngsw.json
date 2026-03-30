@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1774834944988,
+  "timestamp": 1774835247670,
   "index": "/TV_Maze-The-Pitt/index.html",
   "assetGroups": [
     {
@@ -110,7 +110,7 @@
     "/TV_Maze-The-Pitt/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "/TV_Maze-The-Pitt/index.html": "6c4dbb0351ea6ce148c3033a27db60f3e8b44471",
     "/TV_Maze-The-Pitt/main-V2NMJUSQ.js": "648de1b6a591ca0dec2cb47c514bb29dd42bb24b",
-    "/TV_Maze-The-Pitt/manifest.webmanifest": "7fc66a5fa0489c2c57f1aecf2bd9f8b598bfa268",
+    "/TV_Maze-The-Pitt/manifest.webmanifest": "7811dd4e09d6ca0a8bc6e9ae016acbd436d47d8c",
     "/TV_Maze-The-Pitt/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/TV_Maze-The-Pitt/styles-3CWPEHOW.css": "75dac089f822398ad272cb185cb66addc6d05d8f"
   },
